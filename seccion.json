@@ -1,0 +1,37 @@
+[
+	{
+		"label" : "A",
+		"value" : "1",
+		"father" : "1"
+	},
+	{
+		"label" : "B",
+		"value" : "2",
+		"father" : "1"
+	},
+	{
+		"label" : "C",
+		"value" : "3",
+		"father" : "1"
+	},
+	{
+		"label" : "A",
+		"value" : "4",
+		"father" : "2"
+	},
+	{
+		"label" : "A",
+		"value" : "5",
+		"father" : "3"
+	},
+	{
+		"label" : "A",
+		"value" : "6",
+		"father" : "4"
+	},
+	{
+		"label" : "B",
+		"value" : "7",
+		"father" : "4"
+	}
+]
