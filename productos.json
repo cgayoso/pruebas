@@ -1,0 +1,77 @@
+[
+	{
+		"label" : "Galleta",
+		"value" : 1,
+		"father" : 1
+	},
+	{
+		"label" : "Cuchuflí",
+		"value" : 2,
+		"father" : 1
+	},
+	{
+		"label" : "Alfajor",
+		"value" : 3,
+		"father" : 1
+	},
+	{
+		"label" : "Manzana",
+		"value" : 4,
+		"father" : 2
+	},
+	{
+		"label" : "Miel",
+		"value" : 5,
+		"father" : 2
+	},
+	{
+		"label" : "Mantequilla",
+		"value" : 6,
+		"father" : 2
+	},
+	{
+		"label" : "Alfalfa",
+		"value" : 7,
+		"father" : 3
+	},
+	{
+		"label" : "Manteca",
+		"value" : 8,
+		"father" : 3
+	},
+	{
+		"label" : "Café",
+		"value" : 9,
+		"father" : 4
+	},
+	{
+		"label" : "Galletón",
+		"value" : 10,
+		"father" : 1
+	},
+	{
+		"label" : "Canela",
+		"value" : 11,
+		"father" : 4
+	},
+	{
+		"label" : "Tallarin",
+		"value" : 12,
+		"father" : 5
+	},
+	{
+		"label" : "Leche",
+		"value" : 13,
+		"father" : 5
+	},
+	{
+		"label" : "Fósforos",
+		"value" : 14,
+		"father" : 5
+	},
+	{
+		"label" : "Rosquillas",
+		"value" : 15,
+		"father" : 7
+	}
+]
