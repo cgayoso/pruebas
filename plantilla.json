@@ -1,0 +1,99 @@
+{
+	"id" : "1",
+	"label" : "Test Tecnoforms",
+	"action" : "http://btpackdesa.ecofor.cl/cgi-bin/tecnoforms/recepcion.pl",
+	"fields" : [
+		{
+			"id" : 1,
+			"type" : "text",
+			"format" : "text",
+			"dependency" : 0,
+			"label" : "Nombre",
+			"restrict" : "minlen[3]|maxlen[10]"
+		},
+		{
+			"id" : 2,
+			"type" : "text", 
+			"format" : "text",
+			"dependency" : 0,
+			"label" : "Apellido Paterno" ,
+			"restrict" : "minlen[3]|maxlen[10]"
+		},
+		{
+			"id" : 3,
+			"type" : "text", 
+			"format" : "text",
+			"dependency" : 0,
+			"label" : "Apellido Materno",
+			"restrict" : "minlen[3]|maxlen[10]"
+		},
+		{
+			"id" : 4,
+			"type" : "date", 
+			"format" : "",
+			"dependency" : 0,
+			"label" : "Fecha nacimiento",
+			"restrict" : ""
+		},
+		{
+			"id" : 5,
+			"type" : "text", 
+			"format" : "number",
+			"dependency" : 0,
+			"label" : "Peso",
+			"restrict" : "min[10]|max[200]"
+		},
+		{
+			"id" : 6,
+			"type" : "select", 
+			"format" : "", 
+			"dependency" : 0,
+			"label" : "Maquinas", 
+			"values" : "maquinas.json",
+			"restrict" : ""
+		},
+		{			
+			"id" : 7,
+			"type" : "selectMultiple",
+			"format" : "",
+			"dependency" : 6,
+			"label" : "Sección", 
+			"values" : "seccion.json",
+			"restrict" : "minsel[1]"
+		},
+		{			
+			"id" : 8,
+			"type" : "selectMultiple",
+			"format" : "",
+			"dependency" : 0,
+			"label" : "Colores", 
+			"values" : "colores.json",
+			"restrict" : ""
+		},
+		{
+			"id" : 9,
+			"type" : "avg", 
+			"format" : "",
+			"dependency" : 0,
+			"label" : "Promedio",
+			"restrict" : "minsel[1]|maxsel[4]"
+		},
+		{
+			"id" : 10,
+			"type" : "image", 
+			"format" : "",
+			"dependency" : 0,
+			"label" : "Fotografía",
+			"restrict" : ""
+		},
+		{
+			"id" : 11,
+			"type" : "autocomplete", 
+			"format" : "", 
+			"dependency" : 6,
+			"label" : "Producto", 
+			"values" : "productos.json",
+			"restrict" : "trim"
+		}
+	] 
+}
